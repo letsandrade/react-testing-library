@@ -66,14 +66,15 @@ describe('Requisito 5 - Teste o componente <Pokedex.js />',
     it('Teste se a Pokédex contém um botão para resetar o filtro',
       () => {
         renderWithRouter(<App />);
+        const pokeTypeId = 'pokemon-type';
         const buttonBug = screen.getByRole('button', { name: /bug/i });
         userEvent.click(buttonBug);
-        const pokeBug = screen.getByTestId('pokemon-type');
+        const pokeBug = screen.getByTestId(pokeTypeId);
         expect(pokeBug).toHaveTextContent(buttonBug.innerHTML);
 
         const buttonAll = screen.getByRole('button', { name: /all/i });
         userEvent.click(buttonAll);
-        const ResetPokemonType = screen.getByTestId('pokemon-type');
+        const ResetPokemonType = screen.getByTestId(pokeTypeId);
         expect(buttonAll).toBeInTheDocument();
         expect(ResetPokemonType).toBeInTheDocument();
         expect(ResetPokemonType.innerHTML).not.toBe(/bug/i);

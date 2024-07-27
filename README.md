@@ -1,4 +1,4 @@
-# React Testing Library 🀢
+# React Testing Library 🐙
 
 Hey there! Welcome to my React Testing Library project. This was one of the projects of the front-end module (the second module out of 4) in the Trybe course. This, as with all the projects that are about tests, was challenging, but very important and taught me a lot. 💻
 
@@ -59,7 +59,7 @@ A big shoutout to Trybe for kickstarting my programming career, the great instru
 
 ## pt-BR
 
-# React Testing Library 🀢
+# React Testing Library 🐙
 
 Olá! Boas vindas ao meu projeto React Testing Library. Esse foi um dos projetos do módulo de front-end (o segundo módulo de 4) no curso da Trybe. Esse, como a maioria dos projetos de testes foi bastante desafiador, mas muito importante e me ensinou muito. 💻
 
